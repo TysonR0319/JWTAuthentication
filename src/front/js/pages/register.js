@@ -8,7 +8,7 @@ let passwords = "";
 
 const Register = () => {
 
-    let history = useNavigate();
+    let navigate = useNavigate();
 
     const handleChange = async (e) => {
         try {
@@ -18,7 +18,7 @@ const Register = () => {
             }
             e.preventDefault()
             await RegisterUser(user)
-            history.push("/login")
+            navigate("/login")
 
         } catch { (err) => console.log(err) }
 
