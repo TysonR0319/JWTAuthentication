@@ -8,7 +8,7 @@ export const Navbar = () => {
   }
 
   return (
-    <nav className="navbar navbar-light bg-warning">
+    <nav className="navbar navbar-light bg-dark">
       <div className="container">
         <div className="ml-auto">
           <Link to="/">
